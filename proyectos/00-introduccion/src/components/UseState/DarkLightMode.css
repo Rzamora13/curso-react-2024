@@ -1,0 +1,13 @@
+.default {
+transition: background-color 0.3s ease;
+}
+
+.dark{
+background-color: #333;
+color: white;
+}
+
+.light{
+    background-color: white;
+    color: #333;
+}
