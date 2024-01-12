@@ -1,9 +1,11 @@
 // import
-import "./App.css"
-import Contador from "./components/UseState/Contador.jsx";
-import ContadorDoble from "./components/UseState/ContadorDoble.jsx";
-import ContadorDobleBest from "./components/UseState/ContadorDobleBest.jsx";
 
+import RegistrarFormulario from "./components/UseState/RegistrarFormulario";
+import TodoListTailWindCss from "./components/UseState/TodoListTailWindCss";
+
+
+//import ContadorDobleBest from "./components/UseState/ContadorDobleBest.jsx";
+ 
 //Variables globales
 
 const App = () => {
@@ -14,7 +16,7 @@ const App = () => {
   const numero= 22;
   const array= ["pera", "manzana", "naranja"];
   const objeto= {
-    nombre: "Rafa",
+    nombre: "jairo",
     edad: 20
   }
 
@@ -40,15 +42,24 @@ const App = () => {
 
     </div>
   )*/
-  return (
+  /**return (
     <>
       <ContadorDobleBest />
     </>
 
-  )
+  )*/
 
+return (
+    <>
 
+     <h1>EJEMPLOS BASICOS REACT</h1>
+    <hr />
+    <RegistrarFormulario />
+    <hr />
+    <TodoListTailWindCss />
+    </>
 
+)
 }
 
 export default App;
